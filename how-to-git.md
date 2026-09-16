@@ -1,6 +1,6 @@
 # How to Git
 
-Successful Git commands used to set up **gsabau/pages-demo**, from clone through the current `feature/howtogit` branch.
+Successful Git commands used to set up **gsabau/pages-demo**, from clone through committing and pushing this file.
 
 ## Clone
 
@@ -51,4 +51,7 @@ git checkout develop
 
 ```powershell
 git switch -c feature/howtogit
+git add .
+git commit -m "added howtogit md file"
+git push -u origin feature/howtogit
 ```
